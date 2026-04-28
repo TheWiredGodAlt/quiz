@@ -3,7 +3,7 @@
 """
 QUIZ INTERATIVO DE ESTRUTURAS DE DADOS
 Projeto Acadêmico - Ciência da Computação
-Autor: [SEU NOME AQUI]
+Autor: Gustavo Goulart Ribeiro
 Disciplina: Estruturas de Dados
 Professora: Pauliane Cardoso
 """
@@ -60,7 +60,7 @@ class Fila:
 
 
 # ==========================================
-# MOTOR DO QUIZ
+# Engine usada no quiz
 # ==========================================
 
 class QuizEngine:
@@ -282,9 +282,9 @@ def menu_principal(engine: QuizEngine) -> None:
         print("\n" + "="*40)
         print("🧩 MENU PRINCIPAL - QUIZ DS".center(40))
         print("="*40)
-        print("1️⃣  Iniciar Quiz")
-        print("2️⃣  Cadastrar Nova Pergunta")
-        print("3️⃣  Sair")
+        print("1️⃣(1) Iniciar Quiz")
+        print("2️⃣(2) Cadastrar Nova Pergunta")
+        print("3️⃣(3) Sair")
         
         opcao = input("\n🔹 Escolha uma opção: ").strip()
         
